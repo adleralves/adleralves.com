@@ -1,6 +1,6 @@
 body {
   background: rgb(199,234,240);
-  background: linear-gradient(90deg, rgba(199,234,240,1) 0%, rgba(252,207,246,1) 100%);
+  background: linear-gradient(90deg, rgba(199,234,240,1) 0%, rgba(69,54,193,1) 100%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
