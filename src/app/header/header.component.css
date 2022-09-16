@@ -1,5 +1,14 @@
 a {
-  font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
-  color: white;
+  font-family: 'SF UI Text', sans-serif;
+  font-weight: 200;
+  color: rgb(49, 49, 49);
+  font-size: 1.15em;
+}
+
+.container {
+  width: 100%;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
 }
