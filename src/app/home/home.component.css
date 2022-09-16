@@ -1,0 +1,13 @@
+div {
+  border: red solid;
+}
+
+svg {
+  width: 80%;
+  height: 80%;
+  border: red solid;
+}
+
+body {
+  height: 95vh;
+}
