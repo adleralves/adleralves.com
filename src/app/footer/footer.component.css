@@ -8,3 +8,17 @@ p {
 a {
   padding: 8px;
 }
+
+.bi bi-github {
+  color: black;
+}
+
+.bi bi-linkedin {
+  color: #0077b7;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}

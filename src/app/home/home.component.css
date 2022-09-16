@@ -3,11 +3,16 @@ div {
 }
 
 svg {
-  width: 80%;
-  height: 80%;
   border: red solid;
 }
 
 body {
   height: 95vh;
+}
+
+h1 {
+  font-family: 'SF UI Text', sans-serif;
+  font-weight: 900;
+  color: rgb(49, 49, 49);
+  font-size: 4em;
 }
