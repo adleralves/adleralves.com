@@ -9,3 +9,10 @@ h1 {
   color: rgb(49, 49, 49);
   font-size: 4em;
 }
+
+h2 {
+  font-family: 'SF UI Text', sans-serif;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+  font-size: 2em;
+}
