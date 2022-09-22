@@ -2,6 +2,11 @@ body {
   height: 95vh;
 }
 
+
+h1, h2, button {
+  display:flexbox !important;
+}
+
 h1 {
   font-family: 'Ygro Bold';
   font-size: 5em;
@@ -15,4 +20,8 @@ h2 {
 button {
   font-family: 'Ygro Book';
   font-size: 2em;
+  border: none;
+  border-radius: 25px!important;
+  background: -webkit-linear-gradient(0deg, rgba(199,234,240,1) 0%, rgba(254,216,255,1) 100%) !important;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
 }
