@@ -1,18 +1,8 @@
-
 body {
   height: 95vh;
 }
 
 h1 {
-  font-family: 'SF UI Text', sans-serif;
-  font-weight: 900;
-  color: rgb(49, 49, 49);
-  font-size: 4em;
-}
-
-h2 {
-  font-family: 'SF UI Text', sans-serif;
-  font-weight: bold;
-  color: rgb(49, 49, 49);
-  font-size: 2em;
+  font-family: 'Ygro Bold';
+  font-size: 10em;
 }
