@@ -7,8 +7,6 @@
 }
 
 a {
-  font-family: 'Ygro Medium';
-  font-size: 1.3em;
   color: #212529
 }
 
@@ -18,3 +16,23 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.animated {
+  font-size: 1.3em;
+  font-family: 'Ygro Medium';
+  text-decoration: none;
+  background: linear-gradient(to right, #212529 50%, rgba(199,234,240,1) 50%, rgba(254,216,255,1));
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
+ }
+
+.animated:hover {
+  background-position: -100%;
+}
+
+.active {
+  background: -webkit-linear-gradient(0deg, rgba(199,234,240,1) 0%, rgba(254,216,255,1) 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
