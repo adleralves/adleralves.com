@@ -9,10 +9,12 @@
 a {
   font-family: 'Ygro Medium';
   font-size: 1.3em;
+  color: #212529
 }
 
-.teste {
+.color {
   background: -webkit-linear-gradient(0deg, rgba(199,234,240,1) 0%, rgba(254,216,255,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
