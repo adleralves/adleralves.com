@@ -7,12 +7,13 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-import { ProjectComponent } from './projects/project/project.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { FastfoodComponent } from './projects/fastfood/fastfood.component';
-import { PortfolioComponent } from './projects/portfolio/portfolio.component';
-import { OsapiComponent } from './projects/osapi/osapi.component';
 import { BookstorewebComponent } from './projects/bookstoreweb/bookstoreweb.component';
+import { FastfoodComponent } from './projects/fastfood/fastfood.component';
+import { OsapiComponent } from './projects/osapi/osapi.component';
+import { PortfolioComponent } from './projects/portfolio/portfolio.component';
+import { ProjectListComponent } from './projects/project-list/project-list.component';
+import { ProjectComponent } from './projects/project-list/project/project.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BookstorewebComponent } from './projects/bookstoreweb/bookstoreweb.comp
     FastfoodComponent,
     PortfolioComponent,
     OsapiComponent,
-    BookstorewebComponent
+    BookstorewebComponent,
+    ProjectListComponent
   ],
   imports: [
     BrowserModule,
