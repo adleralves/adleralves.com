@@ -9,7 +9,6 @@ import { FastfoodComponent } from './projects/fastfood/fastfood.component';
 import { OsapiComponent } from './projects/osapi/osapi.component';
 import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ProjectComponent } from './projects/project-list/project/project.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },

@@ -2,3 +2,17 @@ h1 {
   font-family: 'Ygro Bold';
   font-size: 5em;
 }
+
+h3 {
+  font-family: 'Ygro Bold';
+  font-size: 2.28em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+small {
+  font-family: 'Ygro Book';
+  font-size: 1.1em;
+}
