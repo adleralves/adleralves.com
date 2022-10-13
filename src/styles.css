@@ -18,3 +18,113 @@ body {
   font-family: 'Ygro Book';
   src: url(assets/fonts/YgroSansBeta-Book.woff);
 }
+
+.angular {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #dd0031;
+  color: white;
+  margin: .2rem;
+}
+
+.java {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #0275bf;
+  color: white;
+  margin: .2rem;
+}
+
+.spring {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #6db33f;
+  color: white;
+  margin: .2rem;
+}
+
+.mysql {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #f29111;
+  color: white;
+  margin: .2rem;
+}
+
+.typescript {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #3178c6;
+  color: white;
+  margin: .2rem;
+}
+
+.bootstrap {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background: -webkit-linear-gradient(0deg, rgba(138,19,252,1) 0%, rgba(113,17,245,1) 100%) !important;
+  color: white;
+  margin: .2rem;
+}
+
+.photoshop {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #001b32;
+  color: white;
+  margin: .2rem;
+}
+
+.illustrator {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #330000;
+  color: white;
+  margin: .2rem;
+}
+
+.html {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #f16529;
+  color: white;
+  margin: .2rem;
+}
+
+.css {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #2965f1;
+  color: white;
+  margin: .2rem;
+}
+
+.javascript {
+  font-family: 'Ygro Book';
+  font-size: 1em;
+  border: none;
+  border-radius: 10px!important;
+  background-color: #f7df1e;
+  color: white;
+  margin: .2rem;
+}
