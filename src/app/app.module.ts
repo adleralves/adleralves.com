@@ -13,6 +13,7 @@ import { OsapiComponent } from './projects/osapi/osapi.component';
 import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { CalComponent } from './projects/cal/cal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectsComponent } from './projects/projects.component';
     PortfolioComponent,
     OsapiComponent,
     BookstorewebComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    CalComponent
   ],
   imports: [
     BrowserModule,

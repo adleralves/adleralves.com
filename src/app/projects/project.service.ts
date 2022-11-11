@@ -8,7 +8,7 @@ export class ProjectService {
       'unsplash-photo-3.jpg',
       'Java',
       'HTML',
-      ''
+      'cal'
     ),
     new Project(
       2,
