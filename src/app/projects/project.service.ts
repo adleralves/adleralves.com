@@ -4,22 +4,30 @@ export class ProjectService {
   projects: Project[] = [
     new Project(
       1,
+      'CAL',
+      'unsplash-photo-3.jpg',
+      'Java',
+      'HTML',
+      ''
+    ),
+    new Project(
+      2,
       'Book Store',
-      '../../../assets/adler.png',
+      'unsplash-photo-3.jpg',
       'Java',
       'JSP',
       'bookstore'
     ),
     new Project(
-      2,
+      3,
       'Fast and Furious',
-      '../../../assets/adler.png',
+      'unsplash-photo-3.jpg',
       'Angular',
       'Java',
       'fastfood'
     ),
     new Project(
-      3,
+      4,
       'OS Api',
       'unsplash-photo-3.jpg',
       'Java',
@@ -27,7 +35,7 @@ export class ProjectService {
       'osapi'
     ),
     new Project(
-      4,
+      5,
       'Portfolio',
       'unsplash-photo-4.jpg',
       'Angular',
