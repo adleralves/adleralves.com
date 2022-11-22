@@ -28,7 +28,7 @@ export class ProjectService {
     ),
     new Project(
       4,
-      'OS Api',
+      'OS',
       'unsplash-photo-3.jpg',
       'Java',
       'Spring',
