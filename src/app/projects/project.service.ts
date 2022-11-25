@@ -26,14 +26,14 @@ export class ProjectService {
       'Java',
       'fastfood'
     ),
-    new Project(
+    /*new Project(
       4,
       'OS',
       'unsplash-photo-3.jpg',
       'Java',
       'Spring',
       'osapi'
-    ),
+    ),*/
     new Project(
       5,
       'Portfolio',
