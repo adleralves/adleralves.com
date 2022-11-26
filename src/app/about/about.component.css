@@ -2,3 +2,11 @@ h1 {
   font-family: 'Ygro Bold';
   font-size: 5em;
 }
+
+.bold {
+  font-family: 'Ygro Bold';
+}
+
+.light {
+  font-family: 'Ygro Book';
+}

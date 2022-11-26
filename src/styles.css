@@ -23,6 +23,10 @@ h3 {
   font-family: 'Ygro Medium';
 }
 
+h4 {
+  font-family: 'Ygro Medium';
+}
+
 p {
   font-family: 'Ygro Book';
 }
@@ -32,7 +36,7 @@ p {
   font-family: 'Ygro Book';
   font-size: 1em;
   border: none;
-  border-radius: 10px!important;
+  border-radius: 5px!important;
   color: white;
   margin: .2rem;
 }
