@@ -84,3 +84,27 @@ p {
 .javascript {
   background-color: #f7df1e;
 }
+
+.color {
+  background: -webkit-linear-gradient(0deg, rgba(0,101,242,1) 0%, rgba(235,0,64,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animated {
+  background: linear-gradient(to right, #212529 50%, rgba(0,101,242,1) 50%, rgba(235,0,64,1));
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
+ }
+
+.animated:hover {
+  background-position: -100%;
+}
+
+.skills {
+  border: none;
+  border-radius: 5px!important;
+  margin: .2rem;
+}
