@@ -6,7 +6,7 @@ import { ProjectService } from '../project.service';
 @Component({
   selector: 'app-project-list',
   templateUrl: './project-list.component.html',
-  styleUrls: ['./project-list.component.css']
+  styleUrls: ['./project-list.component.css'],
 })
 export class ProjectListComponent implements OnInit {
   projects: Project[] = [];
@@ -15,7 +15,5 @@ export class ProjectListComponent implements OnInit {
     this.projects = this.projectService.getProjects();
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

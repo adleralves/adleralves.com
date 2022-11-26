@@ -3,14 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-bookstoreweb',
   templateUrl: './bookstoreweb.component.html',
-  styleUrls: ['./bookstoreweb.component.css']
+  styleUrls: ['./bookstoreweb.component.css'],
 })
 export class BookstorewebComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

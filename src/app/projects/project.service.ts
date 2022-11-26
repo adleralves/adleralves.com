@@ -2,14 +2,7 @@ import { Project } from './project.model';
 
 export class ProjectService {
   projects: Project[] = [
-    new Project(
-      1,
-      'CAL',
-      'unsplash-photo-3.jpg',
-      'Java',
-      'HTML',
-      'cal'
-    ),
+    new Project(1, 'CAL', 'unsplash-photo-3.jpg', 'Java', 'HTML', 'cal'),
     new Project(
       2,
       'Book Store',
@@ -41,11 +34,10 @@ export class ProjectService {
       'Angular',
       'Typescript',
       'portfolio'
-    )
+    ),
   ];
 
   getProjects() {
     return this.projects.slice();
   }
-
 }

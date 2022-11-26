@@ -6,13 +6,10 @@ import { ProjectService } from './project.service';
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css'],
-  providers: [ProjectService]
+  providers: [ProjectService],
 })
 export class ProjectsComponent implements OnInit {
+  constructor(private projectService: ProjectService) {}
 
-  constructor(private projectService: ProjectService) { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

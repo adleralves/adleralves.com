@@ -8,12 +8,12 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BookstorewebComponent } from './projects/bookstoreweb/bookstoreweb.component';
+import { CalComponent } from './projects/cal/cal.component';
 import { FastfoodComponent } from './projects/fastfood/fastfood.component';
 import { OsapiComponent } from './projects/osapi/osapi.component';
 import { PortfolioComponent } from './projects/portfolio/portfolio.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { CalComponent } from './projects/cal/cal.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +28,10 @@ import { CalComponent } from './projects/cal/cal.component';
     OsapiComponent,
     BookstorewebComponent,
     ProjectListComponent,
-    CalComponent
+    CalComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
