@@ -18,9 +18,11 @@ footer {
 }
 
 .bi-github {
-  color: black ;
+  color: black;
+  font-size:22px;
 }
 
 .bi-linkedin{
   color:#0077b7;
+  font-size:22px;
 }
