@@ -1,4 +1,4 @@
-a {
+.icone {
   padding: 8px;
   padding-top: 20px;
 }
@@ -17,7 +17,7 @@ footer {
   width: 100%;
 }
 
-.bi-github {
+.bi-github, .bi-behance {
   color: black;
   font-size: 22px;
 }
@@ -27,7 +27,9 @@ footer {
   font-size: 22px;
 }
 
-.bi-behance {
-  color: black;
-  font-size: 22px;
+.testeee {
+  padding-top: 3px;
+  padding-bottom: 10px;
+  font-size: 0.9em;
+  font-family: "Ygro Book";
 }
