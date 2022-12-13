@@ -51,6 +51,7 @@ p {
   border-radius: 5px!important;
   color: white;
   margin: .2rem;
+  padding: .2rem;
 }
 
 .angular {

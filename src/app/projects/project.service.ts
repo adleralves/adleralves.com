@@ -5,6 +5,14 @@ export class ProjectService {
     new Project(1, 'CAL', 'unsplash-photo-3.jpg', 'Java', 'HTML', 'cal'),
     new Project(
       2,
+      'OS',
+      'unsplash-photo-3.jpg',
+      'Java',
+      'Spring',
+      'osapi'
+    ),
+    new Project(
+      3,
       'Book Store',
       'unsplash-photo-3.jpg',
       'Java',
@@ -12,21 +20,13 @@ export class ProjectService {
       'bookstore'
     ),
     new Project(
-      3,
+      4,
       'Fast and Furious',
       'unsplash-photo-3.jpg',
       'Angular',
       'Java',
       'fastfood'
     ),
-    /*new Project(
-      4,
-      'OS',
-      'unsplash-photo-3.jpg',
-      'Java',
-      'Spring',
-      'osapi'
-    ),*/
     new Project(
       5,
       'Portfolio',
