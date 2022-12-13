@@ -3,26 +3,21 @@ h1, h2, button {
 }
 
 h1 {
-  font-family: 'Ygro Bold';
   font-size: 5em;
 }
 
 h2 {
-  font-family: 'Ygro Medium';
   font-size: 3em;
 }
 
 button {
-  font-family: 'Ygro Book';
+  border: none;
   height: 2.5em !important;
   width: 9.5em !important;
   font-size: 1.7em;
-  border: none;
   border-radius: 15px!important;
-  background: -webkit-linear-gradient(0deg, rgba(0,101,242,1) 0%, rgba(235,0,64,1) 100%) !important;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
 }
 
-.teste {
+.space {
   height: 48rem !important;
 }

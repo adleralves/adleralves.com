@@ -1,14 +1,5 @@
 h1 {
-  font-family: 'Ygro Bold';
   font-size: 5em;
-}
-
-.bold {
-  font-family: 'Ygro Bold';
-}
-
-.light {
-  font-family: 'Ygro Book';
 }
 
 .card {
@@ -37,8 +28,5 @@ h1 {
 }
 
 button {
-  font-family: 'Ygro Book';
   border: none;
-  background: -webkit-linear-gradient(0deg, rgba(0,101,242,1) 0%, rgba(235,0,64,1) 100%) !important;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
 }
