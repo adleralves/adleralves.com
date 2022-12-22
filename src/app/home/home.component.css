@@ -3,18 +3,18 @@ h1, h2, button {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 button {
   border: none;
   height: 2.5em !important;
   width: 9.5em !important;
-  font-size: 1.7em;
+  font-size: 1.5em;
   border-radius: 15px!important;
 }
 
