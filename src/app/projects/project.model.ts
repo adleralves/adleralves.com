@@ -4,7 +4,6 @@ export class Project {
   public image: string;
   public language1: string;
   public language2: string;
-  public path: string;
 
   constructor(
     id: number,
@@ -12,13 +11,11 @@ export class Project {
     imagem: string,
     linguagem1: string,
     linguagem2: string,
-    caminho: string
   ) {
     this.id = id;
     this.name = nome;
     this.image = imagem;
     this.language1 = linguagem1;
     this.language2 = linguagem2;
-    this.path = caminho;
   }
 }
