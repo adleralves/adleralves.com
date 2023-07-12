@@ -4,47 +4,7 @@ body {
   background: rgb(255, 255, 255);
 }
 
-@font-face {
-  font-family: 'Ygro Bold';
-  src: url(assets/fonts/YgroSansBeta-Bold.woff);
-}
-
-@font-face {
-  font-family: 'Ygro Medium';
-  src: url(assets/fonts/YgroSansBeta-Medium.woff);
-}
-
-@font-face {
-  font-family: 'Ygro Book';
-  src: url(assets/fonts/YgroSansBeta-Book.woff);
-}
-
-h1 {
-  font-family: 'Ygro Bold';
-}
-
-.h1-alternative {
-  font-family: 'Ygro Medium'
-}
-
-h2, h3, h4, h5 {
-  font-family: 'Ygro Medium';
-}
-
-p {
-  font-family: 'Ygro Book';
-}
-
-.bold {
-  font-family: 'Ygro Bold';
-}
-
-.light {
-  font-family: 'Ygro Book';
-}
-
-.angular, .java, .spring, .mysql, .typescript, .bootstrap,
-.photoshop, .illustrator, .html, .css, .javascript {
+.botao {
   font-family: 'Ygro Book';
   font-size: 1em;
   border: none;
@@ -52,50 +12,6 @@ p {
   color: white;
   margin: .2rem;
   padding: .2rem;
-}
-
-.angular {
-  background-color: #dd0031;
-}
-
-.java {
-  background-color: #0275bf;
-}
-
-.spring {
-  background-color: #6db33f;
-}
-
-.mysql {
-  background-color: #f29111;
-}
-
-.typescript {
-  background-color: #3178c6;
-}
-
-.bootstrap {
-  background: -webkit-linear-gradient(0deg, rgba(138,19,252,1) 0%, rgba(113,17,245,1) 100%) !important;
-}
-
-.photoshop {
-  background-color: #001b32;
-}
-
-.illustrator {
-  background-color: #330000;
-}
-
-.html {
-  background-color: #f16529;
-}
-
-.css {
-  background-color: #2965f1;
-}
-
-.javascript {
-  background-color: #f7df1e;
 }
 
 .color {
