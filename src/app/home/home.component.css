@@ -1,13 +1,10 @@
-h1, h2, button {
-  display:flexbox !important;
-}
 
 h1 {
-  font-size: 4em;
-}
-
-h2 {
-  font-size: 2em;
+  color: #1E1E1E;
+  font-size: 9.5rem;
+  font-weight: 600;
+  letter-spacing: -0.30rem;
+  line-height: .5;
 }
 
 button {
@@ -15,9 +12,22 @@ button {
   height: 2.5em !important;
   width: 9.5em !important;
   font-size: 1.5em;
-  border-radius: 15px!important;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #E20047 0%, #0067F4 100%);
+
 }
 
 .space {
   height: 48rem !important;
+}
+
+.adler {
+  font-size: 9.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(90deg, #E20047 0%, #0067F4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
