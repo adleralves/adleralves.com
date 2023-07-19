@@ -38,3 +38,19 @@ h3 {
   color: #1E1E1E;
   font-weight: 600;
 }
+
+.seta {
+
+  &::after {
+      display: inline-block;
+      content: "\0279E";
+      transition: transform 0.3s ease-out;
+  }
+
+  &:hover {
+
+      &::after {
+          transform: translateX(4px);
+      }
+  }
+}
