@@ -1,8 +1,12 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 body {
-  background: rgb(255, 255, 255);
-  cursor: none;
+  background: url('/assets/images/bg.png') no-repeat center center fixed;
+  background-size: 100vw 100vh;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -66,12 +70,4 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.cursor {
-  pointer-events: none;
-  position: fixed;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-  transition: transform 0.3s ease;
-}
+
