@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-
-import { ProjectService } from './project.service';
+import { Component } from '@angular/core';
+import { ProjectListComponent } from './project-list/project-list.component';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css'],
-  providers: [ProjectService],
+  standalone: true,
+  imports: [ProjectListComponent]
 })
-export class ProjectsComponent implements OnInit {
-  constructor(private projectService: ProjectService) {}
-
-  ngOnInit(): void {}
+export class ProjectsComponent {
 }
