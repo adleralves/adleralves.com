@@ -1,40 +1,126 @@
+/* Seção Esquerda */
+.left-section {
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 6rem;
+  position: relative;
+  z-index: 2;
+}
 
-h1 {
-  color: #1E1E1E;
-  font-size: 9.5rem;
+.name {
+  color: white;
+  font-size: 4.5rem;
   font-weight: 600;
-  letter-spacing: -0.30rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+  font-family: '600', sans-serif;
+  line-height: 0.9;
 }
 
-h3 {
-  font-size: 2rem !important;
-}
-
-.cv {
-  font-size: 3rem;
-  letter-spacing: normal;
-}
-
-.adler {
-  font-size: 9.5rem;
-  font-style: normal;
-  font-weight: 900;
-}
-
-.adler-mob {
+.title {
+  color: white;
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  font-family: '400', sans-serif;
+  line-height: 0.9;
 }
 
-.mob {
-  font-size: 2.5rem;
-  color: #1E1E1E;
-  font-weight: 600;
+.social-icons {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
-.teste {
-  font-size: 2.5rem !important;
-  color: #1E1E1E;
-  font-weight: 600;
+.social-link {
+  color: white;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #ff4d17;
+}
+
+
+
+/* Seção Direita */
+.right-section {
+  padding: 2rem;
+  padding-bottom: 6rem;
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.description {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  font-weight: 300;
+  font-family: '300', sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .left-section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .name {
+    font-size: 3rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .adler {
+    font-size: 3rem;
+  }
+  
+  .right-section {
+    padding: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* Navegação Horizontal */
+.nav-links {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex !important;
+  justify-content: flex-end;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: '400', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  transition: color 0.3s ease;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: #ff4d17;
 }

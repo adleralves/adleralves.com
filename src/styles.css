@@ -1,8 +1,8 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 body {
-  background: url('/assets/images/bg.png') no-repeat center center fixed;
-  background-size: 100vw 100vh;
+  background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
   min-height: 100vh;
