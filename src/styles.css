@@ -70,12 +70,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* Configurações globais para cursor personalizado */
+/* Configurações globais para cursor padrão */
 html, body {
   cursor: default;
 }
 
-/* Garantir que elementos interativos tenham cursor personalizado */
+/* Garantir que elementos interativos tenham cursor padrão */
 a, button, input, textarea, select, [role="button"], [tabindex] {
   cursor: pointer;
 }
@@ -96,44 +96,17 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
   user-select: text;
 }
 
-/* Efeito de Cursor Personalizado - Apenas Aura */
-.custom-cursor {
-  display: none; /* Vamos esconder o cursor personalizado e usar apenas a aura */
+/* Cor de seleção de texto personalizada */
+::selection {
+  background-color: #ff4d17;
+  color: white;
 }
 
-.cursor-aura {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 450px;
-  height: 450px;
-  background: radial-gradient(circle, rgba(255, 77, 23, 0.15) 0%, rgba(255, 77, 23, 0.1) 20%, rgba(255, 77, 23, 0.05) 40%, rgba(255, 77, 23, 0.02) 60%, transparent 80%);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9998;
-  mix-blend-mode: screen;
-  transition: opacity 0.2s ease;
-  opacity: 0;
-  filter: blur(4px);
-  transform: translate3d(0, 0, 0);
-  will-change: transform;
+::-moz-selection {
+  background-color: #ff4d17;
+  color: white;
 }
 
-/* Efeito hover para links e botões - Aura Laranja */
-a:hover ~ .cursor-aura,
-button:hover ~ .cursor-aura,
-.social-link:hover ~ .cursor-aura,
-.nav-link:hover ~ .cursor-aura {
-  transform: translate3d(0, 0, 0) scale(1.1);
-  background: radial-gradient(circle, rgba(255, 77, 23, 0.25) 0%, rgba(255, 77, 23, 0.2) 20%, rgba(255, 77, 23, 0.15) 40%, rgba(255, 77, 23, 0.08) 60%, transparent 80%);
-  filter: blur(3px);
-}
 
-/* Efeito de clique */
-.cursor-aura.clicking {
-  transform: translate3d(0, 0, 0) scale(0.98);
-  background: radial-gradient(circle, rgba(255, 77, 23, 0.3) 0%, rgba(255, 77, 23, 0.25) 20%, rgba(255, 77, 23, 0.2) 40%, rgba(255, 77, 23, 0.1) 60%, transparent 80%);
-  filter: blur(2.5px);
-}
 
 
