@@ -1,66 +1,11 @@
-/* Container Principal */
-.page-container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
-  background-size: cover;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 8rem 24rem;
-  box-sizing: border-box;
-}
-
-/* Seção do Cabeçalho (Canto Superior Esquerdo) */
-.header-section {
-  position: absolute;
-  top: 8rem;
-  left: 24rem;
-  z-index: 10;
-}
-
-.name {
-  color: white;
-  font-size: 4rem;
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  line-height: 0.9;
-  letter-spacing: -0.02em;
-}
-
-.first-name {
-  font-weight: 900;
-}
-
-.last-name {
-  font-weight: 700;
-}
-
-.title {
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 400;
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  margin-top: 0.5rem;
-  line-height: 0.9;
-  letter-spacing: -0.01em;
-}
-
-/* Seção de Conteúdo (Canto Superior Direito) */
-.content-section {
-  position: absolute;
-  top: 8rem;
-  right: 24rem;
-  max-width: 500px;
+/* Wrapper do Conteúdo */
+.content-wrapper {
   width: 100%;
-  z-index: 5;
+  height: 100%;
 }
 
 .description {
-  color: white;
+  color: #e0e0e0;
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
@@ -74,87 +19,8 @@
   margin-bottom: 0;
 }
 
-/* Seção de Redes Sociais (Canto Inferior Esquerdo) */
-.social-section {
-  position: absolute;
-  bottom: 8rem;
-  left: 24rem;
-  display: flex;
-  gap: 2rem;
-  z-index: 10;
-}
-
-.social-link {
-  color: white;
-  font-size: 1.8rem;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
-
-.social-link:hover {
-  color: #ff4d17;
-}
-
-/* Seção de Navegação (Canto Inferior Direito) */
-.nav-section {
-  position: absolute;
-  bottom: 8rem;
-  right: 24rem;
-  display: flex;
-  gap: 2rem;
-  z-index: 10;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0.05rem;
-  transition: color 0.3s ease;
-  text-transform: lowercase;
-}
-
-.nav-link:hover {
-  color: #ff4d17;
-}
-
 /* Responsividade */
 @media (max-width: 768px) {
-  .page-container {
-    padding: 4rem 6rem;
-  }
-  
-  .header-section {
-    top: 4rem;
-    left: 6rem;
-  }
-  
-  .social-section {
-    bottom: 4rem;
-    left: 6rem;
-  }
-  
-  .nav-section {
-    bottom: 4rem;
-    right: 6rem;
-  }
-  
-  .name {
-    font-size: 2.5rem;
-  }
-  
-  .title {
-    font-size: 1.8rem;
-  }
-  
-  .content-section {
-    top: 4rem;
-    right: 6rem;
-    max-width: 300px;
-  }
-  
   .description {
     font-size: 1rem;
     line-height: 1.5;

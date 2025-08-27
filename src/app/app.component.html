@@ -1,1 +1,35 @@
-<router-outlet></router-outlet>
+<div class="page-container">
+  <!-- Nome e Título (Canto Superior Esquerdo) -->
+  <div class="header-section">
+    <h1 class="name">
+      <span class="first-name">Adler </span>
+      <span class="last-name">Alves</span>
+    </h1>
+    <h2 class="title">Computer Engineer</h2>
+  </div>
+
+  <!-- Conteúdo Principal (Lado Direito) -->
+  <div class="content-section">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- Ícones de Redes Sociais (Canto Inferior Esquerdo) -->
+  <div class="social-section">
+    <a href="https://github.com/adleralves" class="social-link" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.instagram.com/adl9r/" class="social-link" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/adleralves/" class="social-link" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </div>
+
+  <!-- Links de Navegação (Canto Inferior Direito) -->
+  <div class="nav-section">
+    <a routerLink="/" class="nav-link">adleralves</a>
+    <a href="#" class="nav-link">projetos</a>
+    <a routerLink="/experience" class="nav-link">experiencia</a>
+  </div>
+</div>

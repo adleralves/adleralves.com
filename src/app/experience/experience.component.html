@@ -1,0 +1,22 @@
+<div class="experience-container">
+
+  <div class="experience-list">
+    <div class="experience-item" *ngFor="let exp of experiences">
+      <div class="experience-header">
+        <div class="company-info">
+          <h2 class="company-name">{{ exp.company }}</h2>
+          <h3 class="position">{{ exp.position }}</h3>
+        </div>
+        <div class="period">{{ exp.period }}</div>
+      </div>
+      
+      <p class="description">{{ exp.description }}</p>
+      
+      <div class="technologies">
+        <span class="tech-tag" *ngFor="let tech of exp.technologies">
+          {{ tech }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

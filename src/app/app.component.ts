@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 
 @Component({
@@ -7,7 +7,7 @@ import { FooterComponent } from './footer/footer.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true,
-  imports: [RouterOutlet, FooterComponent]
+  imports: [RouterOutlet, RouterModule, FooterComponent]
 })
 export class AppComponent {
   title = 'Adler Alves';
