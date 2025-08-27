@@ -54,7 +54,7 @@
   position: absolute;
   top: 8rem;
   right: 24rem;
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   z-index: 5;
 }
@@ -137,6 +137,6 @@
   .content-section {
     top: 4rem;
     right: 6rem;
-    max-width: 300px;
+    max-width: 400px;
   }
 }

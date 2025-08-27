@@ -6,7 +6,7 @@
 p {
   padding-top: 5px;
   font-size: 0.9em;
-  font-family: "Ygro Book";
+  font-family: 'Inter', sans-serif;
 }
 
 footer {
@@ -31,5 +31,5 @@ footer {
   padding-top: 3px;
   padding-bottom: 10px;
   font-size: 0.9em;
-  font-family: "Ygro Book";
+  font-family: 'Inter', sans-serif;
 }

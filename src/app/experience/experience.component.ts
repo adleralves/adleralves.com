@@ -15,14 +15,21 @@ export class ExperienceComponent {
       position: 'Computer Technique',
       period: '2023 - Present',
       description: 'Desenvolvimento de sistemas de testes, integração e automação para a indústria aeronáutica. Participação no desenvolvimento de RIGs, HIL e bancadas de teste para aeronaves militares, executivas e comerciais.',
-      technologies: ['LabVIEW', 'PXI', 'Python', 'SQL', 'C/C++', 'ARINC-429', 'MIL-STD-1553']
+      technologies: ['LabVIEW', 'Python', 'SQL', 'C/C++', 'ARINC-429', 'MIL-STD-1553']
     },
     {
-      company: 'Empresa Anterior',
-      position: 'Software Engineer',
-      period: '2020 - 2023',
-      description: 'Desenvolvimento de software para sistemas embarcados e automação industrial.',
-      technologies: ['C++', 'Python', 'Linux', 'Embedded Systems']
+      company: 'Embraer',
+      position: 'Entry-Level Programmer',
+      period: '2021 - 2023',
+      description: 'Participação no desenvolvimento inicial de um projeto de aplicação web, auxílio no desenvolvimento front-end e back-end.',
+      technologies: ['Angular', 'TypeScript', 'Figma']
+    },
+    {
+      company: 'Monsuco',
+      position: 'Web Designer',
+      period: '2020 - Present',
+      description: 'Responsável pela identidade visual, layout e estruturação do site da empresa.',
+      technologies: ['Photoshop', 'HTML', 'CSS']
     }
   ];
 }

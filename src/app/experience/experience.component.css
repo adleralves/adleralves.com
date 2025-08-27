@@ -28,22 +28,21 @@
 .experience-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .experience-item {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.03);
   border-radius: 12px;
-  padding: 2rem;
-  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  backdrop-filter: blur(3px);
   transition: all 0.3s ease;
 }
 
 .experience-item:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .experience-header {
@@ -57,20 +56,17 @@
   flex: 1;
 }
 
-.company-name {
+.position-title {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  margin: 0 0 0.5rem 0;
+  margin: 0;
 }
 
-.position {
+.company-name {
   color: #ff4d17;
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  margin: 0;
+  font-weight: 600;
 }
 
 .period {
@@ -84,7 +80,7 @@
 
 .description {
   color: #e0e0e0;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   font-weight: 300;
@@ -95,17 +91,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: flex-end;
 }
 
 .tech-tag {
-  background: rgba(255, 77, 23, 0.2);
   color: #ff4d17;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
   font-family: 'Inter', sans-serif;
-  border: 1px solid rgba(255, 77, 23, 0.3);
+  text-decoration: underline;
 }
 
 /* Responsividade */
@@ -127,12 +121,8 @@
     margin-left: 0;
   }
   
-  .company-name {
-    font-size: 1.3rem;
-  }
-  
-  .position {
-    font-size: 1rem;
+  .position-title {
+    font-size: 1.1rem;
   }
   
   .description {
