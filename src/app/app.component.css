@@ -110,6 +110,28 @@
   text-decoration: underline;
 }
 
+.language-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0;
+  text-decoration: none;
+}
+
+.language-btn:hover {
+  color: #ff4d17;
+}
+
+.language-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .page-container {
@@ -144,4 +166,21 @@
     right: 6rem;
     max-width: 400px;
   }
+  
+  .language-btn {
+    font-size: 1.2rem;
+  }
+  
+  .language-text {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer */
+app-footer {
+  position: fixed;
+  bottom: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }

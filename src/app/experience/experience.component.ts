@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslationService } from '../translation.service';
 
 @Component({
   selector: 'app-experience',
@@ -9,27 +10,32 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class ExperienceComponent {
-  experiences = [
-    {
-      company: 'Embraer',
-      position: 'Computer Technique',
-      period: '2023 - Present',
-      description: 'Responsável pela configuração e montagem da parte computacional de RIGs, HIL e bancadas de teste para aeronaves.',
-      technologies: ['LabVIEW', 'PXI', 'SQL', 'ARINC-429']
-    },
-    {
-      company: 'Embraer',
-      position: 'Entry-Level Programmer',
-      period: '2021 - 2023',
-      description: 'Participação no desenvolvimento inicial de um projeto de aplicação web, auxílio no desenvolvimento front-end e back-end.',
-      technologies: ['Angular', 'TypeScript', 'Figma']
-    },
-    {
-      company: 'Monsuco',
-      position: 'Web Designer',
-      period: '2020 - Present',
-      description: 'Responsável pela identidade visual, layout e estruturação do site da empresa.',
-      technologies: ['Photoshop', 'HTML', 'CSS']
-    }
-  ];
+  constructor(public translationService: TranslationService) {}
+
+  get experiences() {
+    const translations = this.translationService.translations;
+    return [
+      {
+        company: 'Embraer',
+        position: translations.computerTechnique,
+        period: '2023 - Present',
+        description: translations.computerTechniqueDesc,
+        technologies: ['LabVIEW', 'PXI', 'SQL', 'ARINC-429']
+      },
+      {
+        company: 'Embraer',
+        position: translations.entryLevelProgrammer,
+        period: '2021 - 2023',
+        description: translations.entryLevelProgrammerDesc,
+        technologies: ['Angular', 'TypeScript', 'Figma']
+      },
+      {
+        company: 'Monsuco',
+        position: translations.webDesigner,
+        period: '2020 - Present',
+        description: translations.webDesignerDesc,
+        technologies: ['Photoshop', 'HTML', 'CSS']
+      }
+    ];
+  }
 }

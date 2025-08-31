@@ -1,35 +1,18 @@
-.icone {
-  padding: 8px;
-  padding-top: 20px;
-}
 
-p {
-  padding-top: 5px;
-  font-size: 0.9em;
-  font-family: 'Inter', sans-serif;
-}
 
 footer {
-  padding-top: 5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  background: transparent;
 }
 
-.bi-github, .bi-behance {
-  color: black;
-  font-size: 22px;
+.copyright {
+  text-align: center;
+  padding: 0;
 }
 
-.bi-linkedin {
-  color: #0077b7;
-  font-size: 22px;
-}
-
-.testeee {
-  padding-top: 3px;
-  padding-bottom: 10px;
-  font-size: 0.9em;
+.copyright span {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8em;
   font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
