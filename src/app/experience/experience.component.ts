@@ -14,8 +14,8 @@ export class ExperienceComponent {
       company: 'Embraer',
       position: 'Computer Technique',
       period: '2023 - Present',
-      description: 'Desenvolvimento de sistemas de testes, integração e automação para a indústria aeronáutica. Participação no desenvolvimento de RIGs, HIL e bancadas de teste para aeronaves militares, executivas e comerciais.',
-      technologies: ['LabVIEW', 'Python', 'SQL', 'C/C++', 'ARINC-429', 'MIL-STD-1553']
+      description: 'Responsável pela configuração e montagem da parte computacional de RIGs, HIL e bancadas de teste para aeronaves.',
+      technologies: ['LabVIEW', 'PXI', 'SQL', 'ARINC-429']
     },
     {
       company: 'Embraer',

@@ -6,8 +6,6 @@
 }
 
 body {
-  background: url('/assets/images/bg.png') no-repeat center center fixed;
-  background-size: cover;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -68,12 +66,7 @@ body {
   font-weight: 900;
 }
 
-.cor {
-  background: linear-gradient(90deg, #E20047 0%, #0067F4 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 /* Configurações globais para cursor padrão */
 html, body {

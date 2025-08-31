@@ -5,7 +5,7 @@
       <span class="first-name">Adler </span>
       <span class="last-name">Alves</span>
     </h1>
-    <h2 class="title">Computer Engineer</h2>
+    <h2 class="title">Engenheiro da Computação</h2>
   </div>
 
   <!-- Conteúdo Principal (Lado Direito) -->
@@ -24,12 +24,14 @@
     <a href="https://www.linkedin.com/in/adleralves/" class="social-link" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-linkedin"></i>
     </a>
+    <a href="mailto:adleralves@email.com" class="social-link" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
   </div>
 
   <!-- Links de Navegação (Canto Inferior Direito) -->
   <div class="nav-section">
-    <a routerLink="/" class="nav-link">adleralves</a>
-    <a href="#" class="nav-link">projetos</a>
-    <a routerLink="/experience" class="nav-link">experiencia</a>
+    <a routerLink="/" class="nav-link" [class.active]="isActive('/')">adleralves</a>
+    <a routerLink="/experience" class="nav-link" [class.active]="isActive('/experience')">experiencia</a>
   </div>
 </div>
