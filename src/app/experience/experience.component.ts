@@ -17,6 +17,7 @@ export class ExperienceComponent {
     return [
       {
         company: 'Embraer',
+        companyUrl: 'https://embraer.com',
         position: translations.computerTechnique,
         period: '2023 - Present',
         description: translations.computerTechniqueDesc,
@@ -24,6 +25,7 @@ export class ExperienceComponent {
       },
       {
         company: 'Embraer',
+        companyUrl: 'https://embraer.com',
         position: translations.entryLevelProgrammer,
         period: '2021 - 2023',
         description: translations.entryLevelProgrammerDesc,
@@ -31,6 +33,7 @@ export class ExperienceComponent {
       },
       {
         company: 'Monsuco',
+        companyUrl: 'https://monsuco.com.br',
         position: translations.webDesigner,
         period: '2020 - Present',
         description: translations.webDesignerDesc,

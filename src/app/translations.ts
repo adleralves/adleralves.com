@@ -16,7 +16,7 @@ export const translations = {
   pt: {
     title: 'Engenheiro da Computação',
     home: 'adleralves',
-    experience: 'experiencia',
+    experience: 'experiência',
     copyright: 'Adler Alves © 2025',
     computerTechnique: 'Técnico Computacional',
     computerTechniqueDesc: 'Responsável pela configuração e montagem da parte computacional de RIGs, HIL e bancadas de teste para aeronaves.',

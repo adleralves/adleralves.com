@@ -4,7 +4,7 @@
     <div class="experience-item" *ngFor="let exp of experiences">
       <div class="experience-header">
         <div class="company-info">
-          <h2 class="position-title">{{ exp.position }} &#64; <span class="company-name">{{ exp.company }}</span></h2>
+          <h2 class="position-title">{{ exp.position }} &#64; <a href="{{ exp.companyUrl }}" target="_blank" rel="noopener noreferrer" class="company-name">{{ exp.company }}</a></h2>
         </div>
         <div class="period">{{ exp.period }}</div>
       </div>

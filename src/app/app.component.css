@@ -1,4 +1,3 @@
-/* Container Principal */
 .page-container {
   position: relative;
   width: 100vw;
@@ -13,7 +12,6 @@
   box-sizing: border-box;
 }
 
-/* Seção do Cabeçalho (Canto Superior Esquerdo) */
 .header-section {
   position: absolute;
   top: 8rem;
@@ -49,7 +47,6 @@
   letter-spacing: -0.01em;
 }
 
-/* Seção de Conteúdo (Canto Superior Direito) */
 .content-section {
   position: absolute;
   top: 8rem;
@@ -59,7 +56,6 @@
   z-index: 5;
 }
 
-/* Seção de Redes Sociais (Canto Inferior Esquerdo) */
 .social-section {
   position: absolute;
   bottom: 8rem;
@@ -80,7 +76,6 @@
   color: #ff4d17;
 }
 
-/* Seção de Navegação (Canto Inferior Direito) */
 .nav-section {
   position: absolute;
   bottom: 8rem;
@@ -176,7 +171,6 @@
   }
 }
 
-/* Footer */
 app-footer {
   position: fixed;
   bottom: 8rem;

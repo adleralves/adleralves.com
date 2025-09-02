@@ -1,5 +1,4 @@
 <div class="page-container">
-  <!-- Nome e Título (Canto Superior Esquerdo) -->
   <div class="header-section">
     <h1 class="name">
       <span class="first-name">Adler </span>
@@ -8,12 +7,10 @@
     <h2 class="title">{{ translations.title }}</h2>
   </div>
 
-  <!-- Conteúdo Principal (Lado Direito) -->
   <div class="content-section">
     <router-outlet></router-outlet>
   </div>
 
-  <!-- Ícones de Redes Sociais (Canto Inferior Esquerdo) -->
   <div class="social-section">
     <a href="https://github.com/adleralves" class="social-link" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-github"></i>
@@ -32,12 +29,10 @@
     </button>
   </div>
 
-  <!-- Links de Navegação (Canto Inferior Direito) -->
   <div class="nav-section">
     <a routerLink="/" class="nav-link" [class.active]="isActive('/')">{{ translations.home }}</a>
     <a routerLink="/experience" class="nav-link" [class.active]="isActive('/experience')">{{ translations.experience }}</a>
   </div>
 </div>
 
-<!-- Footer -->
 <app-footer></app-footer>

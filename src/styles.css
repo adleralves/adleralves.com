@@ -1,6 +1,5 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-/* Configuração global da fonte */
 * {
   font-family: 'Inter', sans-serif;
 }
@@ -66,19 +65,14 @@ body {
   font-weight: 900;
 }
 
-
-
-/* Configurações globais para cursor padrão */
 html, body {
   cursor: default;
 }
 
-/* Garantir que elementos interativos tenham cursor padrão */
 a, button, input, textarea, select, [role="button"], [tabindex] {
   cursor: pointer;
 }
 
-/* Desabilitar seleção de texto para melhor experiência */
 * {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -86,7 +80,6 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   user-select: none;
 }
 
-/* Permitir seleção de texto em áreas específicas se necessário */
 p, span, div, h1, h2, h3, h4, h5, h6 {
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -94,7 +87,6 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
   user-select: text;
 }
 
-/* Cor de seleção de texto personalizada */
 ::selection {
   background-color: #ff4d17;
   color: white;

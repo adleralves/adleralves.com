@@ -3,8 +3,6 @@
   height: 100%;
 }
 
-
-
 .experience-list {
   display: flex;
   flex-direction: column;
@@ -47,6 +45,13 @@
 .company-name {
   color: #ff4d17;
   font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.company-name:hover {
+  color: #ff6b3d;
+  text-decoration: underline;
 }
 
 .period {
