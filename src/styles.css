@@ -9,6 +9,15 @@ body {
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
+  background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Evitar barrinha branca em mobile */
+@media (max-width: 768px) {
+  body {
+    overflow-y: auto;
+  }
 }
 
 @font-face {
@@ -63,6 +72,12 @@ body {
   font-family: 'Inter';
   src: url('/assets/fonts/Inter-Black.ttf') format('truetype');
   font-weight: 900;
+}
+
+html {
+  background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 html, body {
