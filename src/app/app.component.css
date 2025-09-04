@@ -1,21 +1,24 @@
 .page-container {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
   background-size: cover;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-areas: 
+    "header content"
+    "social nav";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 2rem;
   padding: 8rem 24rem;
   box-sizing: border-box;
+  align-items: start;
 }
 
 .header-section {
-  position: absolute;
-  top: 8rem;
-  left: 24rem;
+  grid-area: header;
   z-index: 10;
 }
 
@@ -48,21 +51,19 @@
 }
 
 .content-section {
-  position: absolute;
-  top: 8rem;
-  right: 24rem;
+  grid-area: content;
   max-width: 600px;
   width: 100%;
   z-index: 5;
+  justify-self: end;
 }
 
 .social-section {
-  position: absolute;
-  bottom: 8rem;
-  left: 24rem;
+  grid-area: social;
   display: flex;
   gap: 2rem;
   z-index: 10;
+  align-self: end;
 }
 
 .social-link {
@@ -77,12 +78,12 @@
 }
 
 .nav-section {
-  position: absolute;
-  bottom: 8rem;
-  right: 24rem;
+  grid-area: nav;
   display: flex;
   gap: 2rem;
   z-index: 10;
+  align-self: end;
+  justify-self: end;
 }
 
 .nav-link {
@@ -128,38 +129,120 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+/* Notebooks grandes (1440px+) */
+@media (max-width: 1440px) {
+  .page-container {
+    padding: 6rem 16rem;
+  }
+  
+  .name {
+    font-size: 2.8rem;
+  }
+  
+  .title {
+    font-size: 1.6rem;
+  }
+  
+  .content-section {
+    max-width: 500px;
+  }
+}
+
+/* Notebooks médios (1366px) */
+@media (max-width: 1366px) {
+  .page-container {
+    padding: 5rem 12rem;
+  }
+  
+  .name {
+    font-size: 2.6rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .content-section {
+    max-width: 450px;
+  }
+}
+
+/* Notebooks pequenos e tablets grandes */
+@media (max-width: 1200px) {
+  .page-container {
+    padding: 4rem 8rem;
+  }
+  
+  .name {
+    font-size: 2.4rem;
+  }
+  
+  .title {
+    font-size: 1.4rem;
+  }
+  
+  .content-section {
+    max-width: 400px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
   .page-container {
     padding: 4rem 6rem;
   }
   
-  .header-section {
-    top: 4rem;
-    left: 6rem;
-  }
-  
-  .social-section {
-    bottom: 4rem;
-    left: 6rem;
-  }
-  
-  .nav-section {
-    bottom: 4rem;
-    right: 6rem;
-  }
-  
   .name {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
   .title {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   
   .content-section {
-    top: 4rem;
-    right: 6rem;
-    max-width: 400px;
+    max-width: 350px;
+  }
+}
+
+/* Tablets pequenos */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 3rem 2rem;
+    grid-template-areas: 
+      "header"
+      "content"
+      "social"
+      "nav";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 2rem;
+  }
+  
+  .header-section {
+    text-align: center;
+  }
+  
+  .content-section {
+    max-width: 100%;
+    justify-self: center;
+  }
+  
+  .social-section {
+    justify-content: center;
+  }
+  
+  .nav-section {
+    justify-content: center;
+    justify-self: center;
+  }
+  
+  .name {
+    font-size: 2rem;
+  }
+  
+  .title {
+    font-size: 1.2rem;
   }
   
   .language-btn {
@@ -171,10 +254,86 @@
   }
 }
 
+/* Smartphones */
+@media (max-width: 480px) {
+  .page-container {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+  
+  .name {
+    font-size: 1.8rem;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .social-section {
+    gap: 1.5rem;
+  }
+  
+  .nav-section {
+    gap: 1.5rem;
+  }
+  
+  .social-link {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  
+  .language-btn {
+    font-size: 1rem;
+  }
+  
+  .language-text {
+    font-size: 1rem;
+  }
+}
+
 app-footer {
   position: fixed;
   bottom: 8rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+}
+
+/* Responsividade do Footer */
+@media (max-width: 1440px) {
+  app-footer {
+    bottom: 6rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  app-footer {
+    bottom: 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  app-footer {
+    bottom: 4rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  app-footer {
+    bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  app-footer {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 2rem;
+    order: 5;
+  }
 }

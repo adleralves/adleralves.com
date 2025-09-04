@@ -20,9 +20,27 @@
 }
 
 /* Responsividade */
+/* Tablets */
+@media (max-width: 1024px) {
+  .description {
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+}
+
+/* Tablets pequenos e smartphones */
 @media (max-width: 768px) {
   .description {
     font-size: 1rem;
     line-height: 1.5;
+    text-align: left;
+  }
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.4;
   }
 }
