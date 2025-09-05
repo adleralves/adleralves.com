@@ -3,13 +3,14 @@ export interface Translations {
   home: string;
   experience: string;
   copyright: string;
-  // Experiência
   computerTechnique: string;
   computerTechniqueDesc: string;
   entryLevelProgrammer: string;
   entryLevelProgrammerDesc: string;
   webDesigner: string;
   webDesignerDesc: string;
+  graphicDesigner: string;
+  graphicDesignerDesc: string;
 }
 
 export const translations = {
@@ -23,7 +24,9 @@ export const translations = {
     entryLevelProgrammer: 'Programador Júnior',
     entryLevelProgrammerDesc: 'Participação no desenvolvimento inicial de um projeto de aplicação web, auxílio no desenvolvimento front-end e back-end.',
     webDesigner: 'Web Designer',
-    webDesignerDesc: 'Responsável pela identidade visual, layout e estruturação do site da empresa.'
+    webDesignerDesc: 'Responsável pela identidade visual, layout e estruturação do site da empresa.',
+    graphicDesigner: 'Designer Gráfico',
+    graphicDesignerDesc: 'Responsável pela criação de identidade visual, layout e estruturação de projetos gráficos.'
   },
   en: {
     title: 'Computer Engineer',
@@ -35,6 +38,8 @@ export const translations = {
     entryLevelProgrammer: 'Entry-Level Programmer',
     entryLevelProgrammerDesc: 'Participation in the initial development of a web application project, assistance in front-end and back-end development.',
     webDesigner: 'Web Designer',
-    webDesignerDesc: 'Responsible for the visual identity, layout and structuring of the company website.'
+    webDesignerDesc: 'Responsible for the visual identity, layout and structuring of the company website.',
+    graphicDesigner: 'Graphic Designer',
+    graphicDesignerDesc: 'Responsible for creating visual identity, layout and structuring of graphic projects.'
   }
 };

@@ -1,8 +1,8 @@
 .page-container {
   position: relative;
   width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100vh;
+  overflow: hidden;
   display: grid;
   grid-template-areas: 
     "header content"
@@ -54,6 +54,9 @@
   width: 100%;
   z-index: 5;
   justify-self: end;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .social-section {
@@ -207,8 +210,8 @@
 @media (max-width: 768px) {
   .page-container {
     padding: 3rem 2rem;
-    min-height: 100vh;
     height: auto;
+    min-height: 100vh;
     grid-template-areas: 
       "header"
       "content"
@@ -217,6 +220,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     gap: 2rem;
+    overflow: visible;
   }
   
   .header-section {
@@ -226,6 +230,8 @@
   .content-section {
     max-width: 100%;
     justify-self: center;
+    height: auto;
+    overflow: visible;
   }
   
   .social-section {

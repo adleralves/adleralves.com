@@ -38,6 +38,14 @@ export class ExperienceComponent {
         period: '2020 - Present',
         description: translations.webDesignerDesc,
         technologies: ['Photoshop', 'HTML', 'CSS']
+      },
+      {
+        company: 'Freelancer',
+        companyUrl: 'https://www.behance.net/adler_alves',
+        position: translations.graphicDesigner,
+        period: '2020 - 2021',
+        description: translations.graphicDesignerDesc,
+        technologies: ['Photoshop', 'Illustrator', 'Blender']
       }
     ];
   }
