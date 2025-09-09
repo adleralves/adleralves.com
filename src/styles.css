@@ -11,6 +11,21 @@ body {
   overflow-x: hidden;
   background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
   background-size: cover;
+  position: relative;
+}
+
+/* Efeito de brilho no centro superior */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1500px;
+  height: 700px;
+  background: radial-gradient(ellipse at center top, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 20%, rgba(255, 255, 255, 0.02) 40%, rgba(255, 255, 255, 0.01) 60%, transparent 80%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Evitar barrinha branca em mobile */

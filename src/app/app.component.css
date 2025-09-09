@@ -18,6 +18,7 @@
 .header-section {
   grid-area: header;
   z-index: 10;
+  position: relative;
 }
 
 .name {
@@ -30,11 +31,11 @@
 }
 
 .first-name {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .last-name {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .title {
@@ -53,6 +54,7 @@
   max-width: 600px;
   width: 100%;
   z-index: 5;
+  position: relative;
   justify-self: end;
   height: 100%;
   overflow-y: auto;
@@ -64,6 +66,7 @@
   display: flex;
   gap: 2rem;
   z-index: 10;
+  position: relative;
   align-self: end;
 }
 
@@ -83,6 +86,7 @@
   display: flex;
   gap: 2rem;
   z-index: 10;
+  position: relative;
   align-self: end;
   justify-self: end;
 }

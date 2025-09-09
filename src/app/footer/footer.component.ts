@@ -10,7 +10,12 @@ import { TranslationService } from '../translation.service';
 export class FooterComponent {
   constructor(public translationService: TranslationService) {}
 
+  get currentYear() {
+    return new Date().getFullYear();
+  }
+
   get copyrightText() {
-    return this.translationService.translations.copyright;
+    const baseText = this.translationService.translations.copyright;
+    return baseText.replace('2025', this.currentYear.toString());
   }
 }
