@@ -6,17 +6,28 @@
 
 .description {
   color: #e0e0e0;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: justify;
   font-weight: 300;
   font-family: 'Inter', sans-serif;
-  letter-spacing: 0.02em;
 }
 
 .description:last-child {
   margin-bottom: 0;
+}
+
+.description .company-link {
+  color: #ff4d17 !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.description .company-link:hover {
+  color: #ff6b3d !important;
+  text-decoration: underline;
 }
 
 /* Responsividade */
@@ -33,7 +44,7 @@
   .description {
     font-size: 1rem;
     line-height: 1.5;
-    text-align: left;
+    text-align: justify;
   }
 }
 

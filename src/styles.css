@@ -103,6 +103,18 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   cursor: pointer;
 }
 
+.company-link {
+  color: #ff4d17 !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.company-link:hover {
+  color: #ff6b3d !important;
+  text-decoration: underline;
+}
+
 * {
   -webkit-user-select: none;
   -moz-user-select: none;
