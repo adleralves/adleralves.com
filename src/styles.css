@@ -1,3 +1,4 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 /* Variáveis CSS para cores e fontes */
@@ -24,7 +25,6 @@ body {
   position: relative;
 }
 
-/* Efeito de brilho no centro superior */
 body::before {
   content: '';
   position: fixed;
@@ -38,7 +38,6 @@ body::before {
   z-index: 1;
 }
 
-/* Evitar barrinha branca em mobile */
 @media (max-width: 768px) {
   body {
     overflow-y: auto;

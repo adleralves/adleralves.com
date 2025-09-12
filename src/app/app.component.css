@@ -314,7 +314,6 @@ app-footer {
   z-index: 10;
 }
 
-/* Responsividade do Footer */
 @media (max-width: 1440px) {
   app-footer {
     bottom: 6rem;
@@ -346,6 +345,5 @@ app-footer {
     left: auto;
     transform: none;
     margin-top: 2rem;
-    order: 5;
   }
 }
