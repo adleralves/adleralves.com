@@ -22,9 +22,9 @@
 }
 
 .name {
-  color: #ffffff;
+  color: var(--text-white);
   font-size: 3rem;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   line-height: 0.9;
   letter-spacing: -0.02em;
@@ -39,10 +39,10 @@
 }
 
 .title {
-  color: #e0e0e0;
+  color: var(--text-gray);
   font-size: 1.8rem;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   margin-top: 0.5rem;
   line-height: 0.9;
@@ -71,14 +71,14 @@
 }
 
 .social-link {
-  color: white;
+  color: var(--text-white);
   font-size: 1.8rem;
   transition: color 0.3s ease;
   text-decoration: none;
 }
 
 .social-link:hover {
-  color: #ff4d17;
+  color: var(--primary-color);
 }
 
 .nav-section {
@@ -92,9 +92,9 @@
 }
 
 .nav-link {
-  color: white;
+  color: var(--text-white);
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
@@ -103,19 +103,19 @@
 }
 
 .nav-link:hover {
-  color: #ff4d17;
+  color: var(--primary-color);
 }
 
 .nav-link.active {
-  color: #ff4d17;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
 .language-btn {
   background: transparent;
   border: none;
-  color: white;
-  font-family: 'Inter', sans-serif;
+  color: var(--text-white);
+  font-family: var(--font-family);
   font-size: 1.5rem;
   font-weight: 400;
   cursor: pointer;
@@ -125,7 +125,7 @@
 }
 
 .language-btn:hover {
-  color: #ff4d17;
+  color: var(--primary-color);
 }
 
 .language-text {

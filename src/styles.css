@@ -1,7 +1,17 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
+/* Variáveis CSS para cores e fontes */
+:root {
+  --primary-color: #ff4d17;
+  --primary-hover: #ff6b3d;
+  --text-white: #ffffff;
+  --text-gray: #e0e0e0;
+  --text-muted: rgba(255, 255, 255, 0.3);
+  --font-family: 'Inter', sans-serif;
+}
+
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
 }
 
 body {
@@ -104,15 +114,56 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
 }
 
 .company-link {
-  color: #ff4d17 !important;
+  color: var(--primary-color) !important;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .company-link:hover {
-  color: #ff6b3d !important;
+  color: var(--primary-hover) !important;
   text-decoration: underline;
+}
+
+/* Estilo global para descrições */
+.description {
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-weight: 300;
+  font-family: var(--font-family);
+}
+
+.description:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsividade para descrições */
+/* Tablets */
+@media (max-width: 1024px) {
+  .description {
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+}
+
+/* Tablets pequenos e smartphones */
+@media (max-width: 768px) {
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+}
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
 }
 
 * {
