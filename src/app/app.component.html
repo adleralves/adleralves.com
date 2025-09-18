@@ -1,6 +1,4 @@
-<app-loading *ngIf="isLoading"></app-loading>
-
-<div class="page-container" *ngIf="!isLoading">
+<div class="page-container">
   <div class="header-section">
     <h1 class="name">
       <span class="first-name">Adler </span>
@@ -33,8 +31,9 @@
 
   <div class="nav-section">
     <a routerLink="/" class="nav-link" [class.active]="isActive('/')">{{ translations.home }}</a>
+    <a routerLink="/about" class="nav-link" [class.active]="isActive('/about')">{{ translations.about }}</a>
     <a routerLink="/experience" class="nav-link" [class.active]="isActive('/experience')">{{ translations.experience }}</a>
   </div>
 </div>
 
-<app-footer *ngIf="!isLoading"></app-footer>
+<app-footer></app-footer>

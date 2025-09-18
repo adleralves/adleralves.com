@@ -1,6 +1,7 @@
 export interface Translations {
   title: string;
   home: string;
+  about: string;
   experience: string;
   copyright: string;
   computerTechnique: string;
@@ -20,6 +21,7 @@ export const translations = {
   pt: {
     title: 'Engenheiro da Computação',
     home: 'adleralves',
+    about: 'sobre',
     experience: 'experiência',
     copyright: 'Adler Alves © 2025',
     computerTechnique: 'Técnico Computacional',
@@ -37,6 +39,7 @@ export const translations = {
   en: {
     title: 'Computer Engineer',
     home: 'adleralves',
+    about: 'about',
     experience: 'experience',
     copyright: 'Adler Alves © 2025',
     computerTechnique: 'Computer Technique',
@@ -47,7 +50,7 @@ export const translations = {
     webDesignerDesc: 'Responsible for the visual identity, layout and structuring of the company website.',
     graphicDesigner: 'Graphic Designer',
     graphicDesignerDesc: 'I worked creating visual identity (logos, layouts and social media images) for teams and content creators.',
-    homeDescription1: 'Graduated in Systems Development Technician from <a href="https://www.senai.br" target="_blank" rel="noopener noreferrer" class="company-link">SENAI</a> and currently studying Computer Engineering at <a href="https://www.unisa.br" target="_blank" rel="noopener noreferrer" class="company-link">UNISA</a>.',
+    homeDescription1: 'Graduated in Systems Development Technician from <a href="https://www.sp.senai.br/" target="_blank" rel="noopener noreferrer" class="company-link">SENAI</a> and currently studying Computer Engineering at <a href="https://www.unisa.br" target="_blank" rel="noopener noreferrer" class="company-link">UNISA</a>.',
     homeDescription2: 'My interest in technology started early, at the age of 10, when I had my first contact with video and image editing, experiences that awakened my curiosity and desire to learn more and more about the digital universe.',
     homeDescription3: 'Today, I work at <a href="https://www.embraer.com" target="_blank" rel="noopener noreferrer" class="company-link">Embraer</a> as a Computer Technician in the ground systems testing area, where I work on developing RIGs and test benches for aircraft, combining my training and passion for technology with practice in the aerospace sector.'
   }

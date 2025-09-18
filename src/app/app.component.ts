@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet, RouterModule, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
-import { LoadingComponent } from './loading/loading.component';
 import { TranslationService } from './translation.service';
 
 @Component({
@@ -10,23 +9,15 @@ import { TranslationService } from './translation.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true,
-  imports: [RouterOutlet, RouterModule, CommonModule, FooterComponent, LoadingComponent]
+  imports: [RouterOutlet, RouterModule, CommonModule, FooterComponent]
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'Adler Alves';
-  isLoading = true;
 
   constructor(
     private router: Router,
     public translationService: TranslationService
   ) {}
-
-  ngOnInit() {
-    // Simula o carregamento inicial
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 2000); // 2 segundos de loading
-  }
 
   get currentLanguage() {
     return this.translationService.currentLanguage;

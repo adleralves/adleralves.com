@@ -20,22 +20,9 @@ body {
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background: url('/assets/images/bg_halftone_noise.png') no-repeat center center fixed;
+  background: url('/assets/images/bg_light.png') no-repeat center center fixed;
   background-size: cover;
   position: relative;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1500px;
-  height: 700px;
-  background: radial-gradient(ellipse at center top, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 20%, rgba(255, 255, 255, 0.02) 40%, rgba(255, 255, 255, 0.01) 60%, transparent 80%);
-  pointer-events: none;
-  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -124,7 +111,6 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   text-decoration: underline;
 }
 
-/* Estilo global para descrições */
 .description {
   color: var(--text-gray);
   font-size: 0.95rem;
@@ -139,8 +125,6 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   margin-bottom: 0;
 }
 
-/* Responsividade para descrições */
-/* Tablets */
 @media (max-width: 1024px) {
   .description {
     font-size: 1.05rem;
@@ -148,7 +132,6 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   }
 }
 
-/* Tablets pequenos e smartphones */
 @media (max-width: 768px) {
   .description {
     font-size: 1rem;
@@ -157,7 +140,6 @@ a, button, input, textarea, select, [role="button"], [tabindex] {
   }
 }
 
-/* Smartphones pequenos */
 @media (max-width: 480px) {
   .description {
     font-size: 0.95rem;
